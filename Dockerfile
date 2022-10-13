@@ -11,9 +11,7 @@ ADD index.html .
 
 RUN cat index.html > /var/www/html/index.nginx-debian.html
 
-RUN service nginx start
-
 CMD ["bash"]
 
-EXPOSE 8084
+EXPOSE 8081
 
