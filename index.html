@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hari VTZ</title>
+<!--meta http-equiv="refresh" content="10"-->
+<meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+<style>
+  table,th,td{
+    border:1px solid green;
+    border-collapse:collapse;
+  }
+  th,td{
+    padding:2px;
+  }
+  tfoot{
+    border:2px solid blue;
+  }
+  video{
+    background-color: pink;
+  }
+  u{
+    text-decoration: red wavy underline;
+  }
+  fieldset{
+    background-color: greenyellow;
+  }
+  #navigationlinks{
+    background-color: red;
+  }
+  li{
+    display: inline-block;
+  }
+  #sectionheading{
+    text-align: center;
+  }
+  img{
+    width: auto;
+    height: auto;
+  }
+</style>
+</head>
+<body style="background-color:lightblue">
+  <!--<h1 style="color:green;text-align:center">HELLO THIS IS MY WEBSITE</h1>-->
+  <div class="first" style="background-color:green">This text is in <mark>first</mark>division.</div>
+  <div class="first" style="background-color:green">This is second division which is under first division</div>
+  <div class="first" style="background-color:green">This is second division which is under second division</div>
+  <p>This is written in <q>HTML</q> <code>language</code> using Sublime Text Editor.</p>
+  <a href="file:///C:/Hari/EEE/IT%20learning/HTML%20files/sample2.html" target="_blank" style="color:red;"><img src="C:\Hari\Pictures\Screenshots\pic1.png" alt="Desktop Image"></a>
+  <table border="1">
+    <caption>Students Record</caption>
+    <thead>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Marks</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sonoo</td>
+      <td>Jaiswal</td>
+      <td>50</td>
+    </tr>
+    <tfoot>
+    <tr>
+      <td>James</td>
+      <td>William</td>
+      <td>80</td>
+    </tr>
+  </tfoot>
+    <tr>
+      <td>Swati</td>
+      <td>Sironi</td>
+      <td>90</td>
+    </tr>
+  </tbody>
+  </table><br>
+  <form>
+    Name: 
+    <input type="text" name="username" id="username1"><br>
+    <input type="submit" value="Enter" onclick="disp()">
+    <input type="reset" value="Reset">
+  </form><br>
+  <script type="text/javascript">
+    function disp(){
+      var x = document.getElementById('username1').value;
+      alert("Hi "+x+", your name was submitted successfully");
+    }
+  </script>
+  <textarea rows="2" cols="35" placeholder="Enter here.."></textarea>
+  <p>This <u>paragraph</u> shows a time format and text highlight, now time is: <time datetime="2000-03-15">7:30</time>pm.</p>
+  <video controls="controls" width="500" height="300" title="Mahessh and Ramesh">
+    <source src="C:\Hari\EEE\motoe4plus\DCIM\WhatsApp\Media\WhatsApp Video\VID-20191106-WA0000.mp4" type="video/mp4">
+  </video>
+  <nav id="navigationlinks">
+  <ul type="a" style="color: seagreen;">
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">SQL</a></li>
+  </ul>
+  </nav>
+  <svg height="100" width="200">
+    <rect width="200" height="100" stroke="yellow" stroke-width="4" fill="red"/>
+  </svg>
+  <form>
+  <label for="gender">Gender</label>
+  <input type="radio" name="gender"/>Male
+  <input type="radio" name="gender"/>Female<br>
+  <fieldset id="fieldset1">
+      <legend>User Information</legend><br>
+      <label>Fruits: </label>
+      <input type="checkbox" name="fruit"/>
+      <label>Apple</label>
+      <input type="checkbox" name="fruit"/>
+      <label>Mango</label><br><br>
+      <label>Select country: </label>
+      <select>
+        <option value="select">Select</option>
+        <option value="india">India</option>
+        <option value="china">China</option>
+        <option value="sri lanka">Sri Lanka</option>
+        <option value="bangladesh">Bangladesh</option>
+        <option value="other">Other</option>
+      </select>
+  </fieldset>
+  <input type="button" value="Click Me" onclick="alert('You are learning HTML!!')">
+  </form><br>
+  <label>New Form</label>
+  <form>
+    <input type="file" name="new file" autofocus>
+    <input type="reset" name="reset">
+  </form>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/QxEW1NzE0mM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <section style="background-color: palevioletred; border: 1px solid black; width: 100%;">
+    <h2 id="sectionheading">This text is in the section block</h2>
+    <p>This paragraph in the same section under the heading of type h2. The section has a border of solid black and<br> palevioletred background color. There aren't any other styles added to this paragraph.</p>
+  </section><br>
+  <aside style="border: 2px solid green;">
+    <p>This is another paragraph which is under aside tag with a border of solid green of thicknes 2px.</p>
+  </aside>
+  <details>
+    <summary>This is summary</summary>
+    <p>This is a paragraph inside a summary and details.</p>
+    <p>This line was created by sai_nammi</p>
+  </details><br>
+  <table style="border: 2px solid black;">
+    <tr style="background-color: green;">
+      <td colspan="2">11</td>
+    </tr>
+    <tr style="background-color: pink;">
+      <td>21</td>
+      <td>22</td>
+    </tr>
+  </table>
+</body>
+</html>
