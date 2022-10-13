@@ -1,157 +1,324 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Hari VTZ</title>
-<!--meta http-equiv="refresh" content="10"-->
-<meta name="viewpoint" content="width=device-width,initial-scale=1.0">
-<style>
-  table,th,td{
-    border:1px solid green;
-    border-collapse:collapse;
-  }
-  th,td{
-    padding:2px;
-  }
-  tfoot{
-    border:2px solid blue;
-  }
-  video{
-    background-color: pink;
-  }
-  u{
-    text-decoration: red wavy underline;
-  }
-  fieldset{
-    background-color: greenyellow;
-  }
-  #navigationlinks{
-    background-color: red;
-  }
-  li{
-    display: inline-block;
-  }
-  #sectionheading{
-    text-align: center;
-  }
-  img{
-    width: auto;
-    height: auto;
-  }
-</style>
+    <style>
+        .bc {
+            background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/ocean.jpg");
+            width: 100vw;
+            height: 100vh;
+            background-size: cover;
+        }
+
+        .center {
+            text-align: center;
+            font-family: "Roboto";
+            background-color: white;
+            border-top-right-radius: 25px;
+            border-top-left-radius: 25px;
+            padding: 10px;
+        }
+
+        .h {
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .b {
+            color: white;
+            font-family: "Roboto";
+            height: 36px;
+            width: 138px;
+            background-color: #25b1cc;
+            border-radius: 20px;
+        }
+
+        .bg {
+            background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png');
+            height: 100vh;
+            background-size: cover;
+            font-family: "Roboto";
+        }
+
+        .back {
+            margin: 10px;
+        }
+
+        .f {
+            color: white;
+            margin: 10px;
+            padding-top: 20px;
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .pc {
+            background-color: white;
+            color: #0f0e46;
+            border-radius: 8px;
+            padding-top: 5px;
+            padding-left: 10px;
+            margin: 10px;
+        }
+
+        .im {
+            width: 90px;
+            height: 100px;
+            border-radius: 8px;
+            margin-right: 5px;
+        }
+
+        .bg1 {
+            background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png');
+            background-size: cover;
+            height: 100vh;
+        }
+
+        .h1 {
+            color: white;
+            padding: 10px;
+            margin-left: 15px;
+            font-family: "Roboto";
+            font-weight: bold;
+        }
+
+        .dc {
+            background-color: white;
+            font-family: "Roboto";
+            margin-left: 25px;
+            margin-right: 25px;
+            border-radius: 8px;
+        }
+
+        .h2 {
+            font-weight: bold;
+            margin-left: 10px;
+            color: #0f0e46;
+        }
+
+        .p1 {
+            margin-left: 15px;
+            font-size: 18px;
+            color: #6c6b70;
+            padding-bottom: 5px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </head>
-<body style="background-color:red">
-  <!--<h1 style="color:green;text-align:center">HELLO THIS IS MY WEBSITE</h1>-->
-  <div class="first" style="background-color:green">This text is in <mark>first</mark>division.</div>
-  <div class="first" style="background-color:green">This is second division which is under first division</div>
-  <div class="first" style="background-color:green">This is second division which is under second division</div>
-  <p>This is written in <q>HTML</q> <code>language</code> using Sublime Text Editor.</p>
-  <a href="file:///C:/Hari/EEE/IT%20learning/HTML%20files/sample2.html" target="_blank" style="color:red;"><img src="C:\Hari\Pictures\Screenshots\pic1.png" alt="Desktop Image"></a>
-  <table border="1">
-    <caption>Students Record</caption>
-    <thead>
-    <tr>
-      <th>First Name</th>
-      <th>Last Name</th>
-      <th>Marks</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Sonoo</td>
-      <td>Jaiswal</td>
-      <td>50</td>
-    </tr>
-    <tfoot>
-    <tr>
-      <td>James</td>
-      <td>Williamson</td>
-      <td>80</td>
-    </tr>
-  </tfoot>
-    <tr>
-      <td>Swati</td>
-      <td>Sironi</td>
-      <td>90</td>
-    </tr>
-  </tbody>
-  </table><br>
-  <form>
-    Name: 
-    <input type="text" name="username" id="username1"><br>
-    <input type="submit" value="Enter" onclick="disp()">
-    <input type="reset" value="Reset">
-  </form><br>
-  <script type="text/javascript">
-    function disp(){
-      var x = document.getElementById('username1').value;
-      alert("Hi "+x+", your name was submitted successfully");
-    }
-  </script>
-  <textarea rows="2" cols="35" placeholder="Enter here.."></textarea>
-  <p>This <u>paragraph</u> shows a time format and text highlight, now time is: <time datetime="2000-03-15">7:30</time>pm.</p>
-  <video controls="controls" width="500" height="300" title="Mahessh and Ramesh">
-    <source src="C:\Hari\EEE\motoe4plus\DCIM\WhatsApp\Media\WhatsApp Video\VID-20191106-WA0000.mp4" type="video/mp4">
-  </video>
-  <nav id="navigationlinks">
-  <ul type="a" style="color: seagreen;">
-    <li><a href="#">HTML</a></li>
-    <li><a href="#">SQL</a></li>
-  </ul>
-  </nav>
-  <svg height="100" width="200">
-    <rect width="200" height="100" stroke="yellow" stroke-width="4" fill="red"/>
-  </svg>
-  <form>
-  <label for="gender">Gender</label>
-  <input type="radio" name="gender"/>Male
-  <input type="radio" name="gender"/>Female<br>
-  <fieldset id="fieldset1">
-      <legend>User Information</legend><br>
-      <label>Fruits: </label>
-      <input type="checkbox" name="fruit"/>
-      <label>Apple</label>
-      <input type="checkbox" name="fruit"/>
-      <label>Mango</label><br><br>
-      <label>Select country: </label>
-      <select>
-        <option value="select">Select</option>
-        <option value="india">India</option>
-        <option value="china">China</option>
-        <option value="sri lanka">Sri Lanka</option>
-        <option value="bangladesh">Bangladesh</option>
-        <option value="other">Other</option>
-      </select>
-  </fieldset>
-  <input type="button" value="Click Me" onclick="alert('You are learning HTML!!')">
-  </form><br>
-  <label>New Form</label>
-  <form>
-    <input type="file" name="new file" autofocus>
-    <input type="reset" name="reset">
-  </form>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/QxEW1NzE0mM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <section style="background-color: palevioletred; border: 1px solid black; width: 100%;">
-    <h2 id="sectionheading">This text is in the section block</h2>
-    <p>This paragraph in the same section under the heading of type h2. The section has a border of solid black and<br> palevioletred background color. There aren't any other styles added to this paragraph.</p>
-  </section><br>
-  <aside style="border: 2px solid green;">
-    <p>This is another paragraph which is under aside tag with a border of solid green of thicknes 2px.</p>
-  </aside>
-  <details>
-    <summary>This is summary</summary>
-    <p>This is a paragraph inside a summary and details.</p>
-    <p>This line was created by sai_nammi</p>
-    <p>This was edited by sai on october-13-2022</p>
-    <p>new line created</p>
-  </details><br>
-  <table style="border: 2px solid black;">
-    <tr style="background-color: green;">
-      <td colspan="2">11</td>
-    </tr>
-    <tr style="background-color: pink;">
-      <td>21</td>
-      <td>22</td>
-    </tr>
-  </table>
+
+<body>
+    <div id="section1">
+        <div class="bc d-flex flex-column justify-content-end">
+            <div class="center">
+                <h1 class="h">Tourism</h1>
+                <p style="font-size: 20px">Plan your trip wherever you want to go</p>
+                <button class="b" onclick="display('section2')">Get Started</button>
+            </div>
+        </div>
+    </div>
+    <div id="section2">
+        <div class="bg">
+            <h1 class="f">Favourite Places</h1>
+            <div class=" pc d-flex flex-rows" onclick="display('section3')">
+                <div>
+                    <h1 style="font-size:16px font-weight:bold">Taj Mahal</h1>
+                    <p>If there was just one symbol to represent all of India, it would be the Taj Mahal</p>
+                </div>
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-img.png" class="im">
+                </div>
+            </div>
+            <div class=" pc d-flex flex-rows" onclick="display('section4')">
+                <div>
+                    <h1 style="font-size:14px font-weight:bold">Mysore Palace</h1>
+                    <p>The Mysore Palace is a historical palace and the royal residence at Mysore</p>
+                </div>
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/mysore-palace-img.png" class="im">
+                </div>
+            </div>
+            <div class=" pc d-flex flex-rows" onclick="display('section5')">
+                <div>
+                    <h1 style="font-size:16px font-weight:bold">Golden Temple</h1>
+                    <p>Amritsar is world-famous for the beautiful and highly revered Golden Temple</p>
+                </div>
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/golden-temple-img.png" class="im">
+                </div>
+            </div>
+            <div class=" pc d-flex flex-rows" onclick="display('section6')">
+                <div>
+                    <h1 style="font-size:16px font-weight:bold">Varanasi Temple</h1>
+                    <p>Varanasi Temple is most famous Hindu temples dedicated to Lord Shiva</p>
+                </div>
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/varanasi-temple-img.png" class="im">
+                </div>
+            </div>
+            <button class="btn btn-dark back" onclick="display('section1')">Back</button>
+        </div>
+    </div>
+    <div id="section3">
+        <div class="bg1">
+            <h1 class="h1">Detalied View</h1>
+            <div class="dc">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c1-img.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c2-img.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c3-img.png" alt="third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/49HTIoCccDY?rel=0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <h2 class="h2">Taj Mahal</h2>
+                <p class="p1">The Taj Mahal is considered to be the greatest architectural
+                    achievement in the whole range of Indo-Islamic architecture. Its
+                    recognised architectonic beauty has a rhythmic combination of solids
+                    and voids, concave and convex and light shadow; such as arches and
+                    domes further increases the aesthetic aspect. Not a piece of
+                    architecture, as other buildings are, but the proud passions of an
+                    emperor’s love wrought in living stones.</p>
+            </div>
+            <button class="btn btn-dark back" onclick="display('section2')">Back</button>
+        </div>
+    </div>
+    <div id="section4">
+        <div class="bg1">
+            <h1 class="h1">Detalied View</h1>
+            <div class="dc">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/mysore-palace1-img.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/mysore-palace2-img.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/mysore-palace3-img.png" alt="third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <h2 class="h2">Mysore Palace</h2>
+                <p class="p1">Mysore Palace, also called Amba Vilas Palace, is one of the most magnificent and largest palaces in India. Situated in the southern state of Karnataka, it used to be the official residence of the Wodeyar Dynasty, the rulers of Mysore from 1399 to 1950. The grand palace stands tall in the heart of Mysore city and attracts visitors from across the world. Being one of the prime attractions in India after the Taj Mahal, it certainly deserves a place in every traveler’s bucket list.</p>
+            </div>
+            <button class="btn btn-dark back" onclick="display('section2')">Back</button>
+        </div>
+    </div>
+    <div id="section5">
+        <div class="bg1">
+            <h1 class="h1">Detalied View</h1>
+            <div class="dc">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goldentemple1-img.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goldentemple2-img.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goldentemple3-img.png" alt="third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <h2 class="h2">Golden Temple</h2>
+                <p class="p1"> The Golden Temple, also known as Harmandir Sahib is a gurdwara
+                    located in the city of Amritsar, Punjab, India. There are many
+                    places to visit Near Golden Temple like Jallianwala Bagh, Wagah Border, Harike Wetland, Bathinda Fort.</p>
+            </div>
+            <button class="btn btn-dark back" onclick="display('section2')">Back</button>
+        </div>
+    </div>
+    <div id="section6">
+        <div class="bg1">
+            <h1 class="h1">Detalied View</h1>
+            <div class="dc">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/varanasi1-img.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/varanasi2-img.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/varanasi3-img.png" alt="third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <h2 class="h2">Varanasi Temple</h2>
+                <p class="p1">Sri Kashi Vishwanath Temple also known as the Golden Temple, it is dedicated to Lord Shiva, the presiding deity of the city. Varanasi is Said to be the point at which the first jyotirlinga, the fiery pillar of light by which shiva manifested has supremacy over others gods, broke through the Earth’s crust and flared towards the heavens. More than the Gaths and even the Ganga, the Shivalinga installed in the temple remains the devotional focus of Varanasi.</p>
+            </div>
+            <button class="btn btn-dark back" onclick="display('section2')">Back</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
 </body>
+
 </html>
