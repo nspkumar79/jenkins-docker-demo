@@ -1,0 +1,6 @@
+arch: amd64
+language: java
+script:
+  - echo "Hello World!"
+  - arch
+  - java --version
