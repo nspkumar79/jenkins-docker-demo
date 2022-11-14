@@ -1,4 +1,4 @@
-arch: amd64
+arch: ppc64le
 language: java
 script:
   - echo "Hello World!"
