@@ -7,4 +7,3 @@ script:
   - echo "Hello World!"
   - arch
   - java --version
-  - hostname
