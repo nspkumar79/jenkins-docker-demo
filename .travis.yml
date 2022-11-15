@@ -10,3 +10,4 @@ script:
   - arch
   - java --version
   - ls -ltr
+  - pwd
