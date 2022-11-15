@@ -11,4 +11,3 @@ script:
   - java --version
   - ls -ltr
   - pwd
-  - who
