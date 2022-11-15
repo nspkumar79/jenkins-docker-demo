@@ -3,8 +3,9 @@ arch:
 dist: focal
 language: java
 git:
-  - depth: 3
-  - quiet: true
+  depth: 3
+git:  
+  quiet: true
 script:
   - echo "Hello World!"
   - arch
