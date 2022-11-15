@@ -1,6 +1,5 @@
 arch: 
   - ppc64le
-  - amd64
 dist: focal
 language: java
 git:
